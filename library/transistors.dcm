@@ -1136,6 +1136,12 @@ K NexFET Power MOSFET N-MOS
 F http://www.ti.com/lit/gpn/csd19534q5a
 $ENDCMP
 #
+$CMP CSD25402Q3A
+D NexFET P-Channel Power MOSFET, Vds -20V, Rdson 7.7mOhm, Id -15A, Qg (typ) 7.5nC, SON8 3.3x3.3mm
+K NexFET Power MOSFET P-MOS
+F http://www.ti.com/lit/ds/symlink/csd25402q3a.pdf
+$ENDCMP
+#
 $CMP DTA113T
 D Digital Transistor, 1k/NONE, SOT-23
 K ROHM Digital Transistor

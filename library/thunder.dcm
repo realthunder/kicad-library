@@ -1,3 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP TPS22918
+D 5.5-V, 2-A, Load Switch with Quick Output Discharge
+K load_switch
+F C:\works\pcb\datasheet\ti\tps22918.pdf
+$ENDCMP
+#
 #End Doc Library

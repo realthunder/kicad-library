@@ -335,6 +335,12 @@ K current sense highside HS shunt monitor amplifier linear
 F http://cds.linear.com/docs/en/datasheet/6106fb.pdf
 $ENDCMP
 #
+$CMP LTC4412
+D Low Loss PowerPath Contorller
+K Oring PowerPath
+F C:/works/pcb/datasheet/linear/LTC4412fb.pdf
+$ENDCMP
+#
 $CMP LTC6082
 D Precision Quad Op amp.
 K LTC6082 opamp ltc
@@ -371,7 +377,6 @@ K telecom automotive backplane external reference
 F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
 $ENDCMP
 #
-
 $CMP MAX4081S
 D 76V High-side differential bipolar current sense amplifier 60V/V gain
 K telecom automotive backplane external reference

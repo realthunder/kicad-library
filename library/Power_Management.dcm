@@ -36,8 +36,14 @@ K ideal-diode or-ing
 F http://cds.linear.com/docs/en/datasheet/4357fd.pdf
 $ENDCMP
 #
+$CMP LTC4359-DCB
+D Ideal diode controller with reverse input protection, DFN-6 package
+K ideal-diode or-ing reverse-protection
+F http://cds.linear.com/docs/en/datasheet/4359fb.pdf
+$ENDCMP
+#
 $CMP LTC4359-MS8
-D Ideal diode controller with reverse input protection
+D Ideal diode controller with reverse input protection, MSOP-8 package
 K ideal-diode or-ing reverse-protection
 F http://cds.linear.com/docs/en/datasheet/4359fb.pdf
 $ENDCMP
@@ -99,7 +105,7 @@ $ENDCMP
 $CMP LTC4365DDB
 D Overvoltage, Undervoltage and Reverse Supply Protection Controller, 3x2mm DFN-8 package, 50Hz/60Hz noise rejection
 K overvoltage undervoltage reverse-polarity protection
-F http://www.linear.com/docs/29832
+F http://cds.linear.com/docs/en/datasheet/4365fa.pdf
 $ENDCMP
 #
 $CMP LTC4365DDB-1
@@ -111,7 +117,7 @@ $ENDCMP
 $CMP LTC4365TS8
 D Overvoltage, Undervoltage and Reverse Supply Protection Controller, TSOT23-8 package, 50Hz/60Hz noise rejection
 K overvoltage undervoltage reverse-polarity protection
-F http://www.linear.com/docs/29832
+F http://cds.linear.com/docs/en/datasheet/4365fa.pdf
 $ENDCMP
 #
 $CMP LTC4365TS8-1
@@ -120,14 +126,32 @@ K overvoltage undervoltage reverse-polarity protection
 F http://www.linear.com/docs/29832
 $ENDCMP
 #
+$CMP LTC4417CGN
+D Prioritized PowerPath controller QFN-24
+K switch power FET sequence
+F http://cds.linear.com/docs/en/datasheet/4417f.pdf
+$ENDCMP
+#
+$CMP LTC4417HGN
+D Prioritized PowerPath controller QFN-24, extended temperature range
+K switch power FET sequence
+F http://cds.linear.com/docs/en/datasheet/4417f.pdf
+$ENDCMP
+#
+$CMP LTC4417IGN
+D Prioritized PowerPath controller QFN-24, industrial temperature range
+K switch power FET sequence
+F http://cds.linear.com/docs/en/datasheet/4417f.pdf
+$ENDCMP
+#
 $CMP LTC4440EMS8
 D High-side, N-Channel, Mosfet driver, 80V input, -40°C to +85°C, MSOP-8 package
-K high-side mosfet-driver  
+K high-side mosfet-driver
 F http://cds.linear.com/docs/en/datasheet/4440fb.pdf
 $ENDCMP
 #
 $CMP LTC4440ES6
-D High-side, N-Channel, Mosfet driver, 80V input, -40°C to +85°C, SOT23-6 package 
+D High-side, N-Channel, Mosfet driver, 80V input, -40°C to +85°C, SOT23-6 package
 K high-side mosfet-driver
 F http://cds.linear.com/docs/en/datasheet/4440fb.pdf
 $ENDCMP
@@ -144,85 +168,85 @@ K high-side mosfet-driver
 F http://cds.linear.com/docs/en/datasheet/4440fb.pdf
 $ENDCMP
 #
-$CMP MCP100-270
+$CMP MCP100-270D
 D Microcontroller reset monitor, 2.70V threshold, active low output
 K supervisor reset push-pull
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
 $ENDCMP
 #
-$CMP MCP100-300
+$CMP MCP100-300D
 D Microcontroller reset monitor, 3.00V threshold, active low output
 K supervisor reset push-pull
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
 $ENDCMP
 #
-$CMP MCP100-315
+$CMP MCP100-315D
 D Microcontroller reset monitor, 3.15V threshold, active low output
 K supervisor reset push-pull
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
 $ENDCMP
 #
-$CMP MCP100-450
+$CMP MCP100-450D
 D Microcontroller reset monitor, 4.50V threshold, active low output
 K supervisor reset push-pull
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
 $ENDCMP
 #
-$CMP MCP100-460
+$CMP MCP100-460D
 D Microcontroller reset monitor, 4.60V threshold, active low output
 K supervisor reset push-pull
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
 $ENDCMP
 #
-$CMP MCP100-475
+$CMP MCP100-475D
 D Microcontroller reset monitor, 4.75V threshold, active low output
 K supervisor reset push-pull
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
 $ENDCMP
 #
-$CMP MCP100-485
+$CMP MCP100-485D
 D Microcontroller reset monitor, 4.85V threshold, active low output
 K supervisor reset push-pull
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
 $ENDCMP
 #
-$CMP MCP101-270
+$CMP MCP101-270D
 D Microcontroller reset monitor, 2.70V threshold, active high output
 K supervisor reset push-pull
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
 $ENDCMP
 #
-$CMP MCP101-300
+$CMP MCP101-300D
 D Microcontroller reset monitor, 3.00V threshold, active high output
 K supervisor reset push-pull
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
 $ENDCMP
 #
-$CMP MCP101-315
+$CMP MCP101-315D
 D Microcontroller reset monitor, 3.15V threshold, active high output
 K supervisor reset push-pull
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
 $ENDCMP
 #
-$CMP MCP101-450
+$CMP MCP101-450D
 D Microcontroller reset monitor, 4.50V threshold, active high output
 K supervisor reset push-pull
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
 $ENDCMP
 #
-$CMP MCP101-460
+$CMP MCP101-460D
 D Microcontroller reset monitor, 4.60V threshold, active high output
 K supervisor reset push-pull
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
 $ENDCMP
 #
-$CMP MCP101-475
+$CMP MCP101-475D
 D Microcontroller reset monitor, 4.75V threshold, active high output
 K supervisor reset push-pull
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
 $ENDCMP
 #
-$CMP MCP101-485
+$CMP MCP101-485D
 D Microcontroller reset monitor, 4.85V threshold, active high output
 K supervisor reset push-pull
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
@@ -255,13 +279,13 @@ $ENDCMP
 $CMP MIC2026-1BM
 D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, in SOIC-8 Package
 K mosfet distribution
-F http://www.micrel.com/_PDF/mic2026.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2026.pdf
 $ENDCMP
 #
 $CMP MIC2026-1BN
 D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, in DIP-8 Package
 K mosfet distribution
-F http://www.micrel.com/_PDF/mic2026.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2026.pdf
 $ENDCMP
 #
 $CMP MIC2026-2BM

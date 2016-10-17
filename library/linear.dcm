@@ -329,6 +329,12 @@ K ampliop
 F op_amps/lmc6082.pdf
 $ENDCMP
 #
+$CMP LMV601
+D Low Power, general purpose Op Amp, SC-70-6 package
+K op amp amplifier operational 
+F http://www.ti.com/lit/ds/symlink/lmv601.pdf
+$ENDCMP
+#
 $CMP LT6106
 D 36V high side current sense amplifier, adjustable gain, bandwidth 200kHz, Vcc=2.7V~36V, current output, unidirectional
 K current sense highside HS shunt monitor amplifier linear
@@ -338,13 +344,67 @@ $ENDCMP
 $CMP LTC4412
 D Low Loss PowerPath Contorller
 K Oring PowerPath
-F C:/works/pcb/datasheet/linear/LTC4412fb.pdf
+F http://cds.linear.com/docs/en/datasheet/4412fb.pdf
+$ENDCMP
+#
+$CMP LTC4414
+D Controller for Large PFETs
+K switch power FET 
+F http://cds.linear.com/docs/en/datasheet/4414fc.pdf
 $ENDCMP
 #
 $CMP LTC6082
 D Precision Quad Op amp.
 K LTC6082 opamp ltc
 F http://cds.linear.com/docs/en/datasheet/60812fd.pdf
+$ENDCMP
+#
+$CMP LTC6102HVxDD
+D Precision zero drift current sense amplifier, 100V supply, DFN-8 package
+K current sensor amplifier shunt monitoring high side
+F http://cds.linear.com/docs/en/datasheet/6102fe.pdf
+$ENDCMP
+#
+$CMP LTC6102HVxDD-1
+D Precision zero drift current sense amplifier, 100V supply, disable mode, DFN-8 package
+K current sensor amplifier shunt monitoring high side
+F http://cds.linear.com/docs/en/datasheet/6102fe.pdf
+$ENDCMP
+#
+$CMP LTC6102HVxMS8
+D Precision zero drift current sense amplifier, 100V supply, MSOP-8 package
+K current sensor amplifier shunt monitoring high side
+F http://cds.linear.com/docs/en/datasheet/6102fe.pdf
+$ENDCMP
+#
+$CMP LTC6102HVxMS8-1
+D Precision zero drift current sense amplifier, 100V supply, disable mode, MSOP-8 package
+K current sensor amplifier shunt monitoring high side
+F http://cds.linear.com/docs/en/datasheet/6102fe.pdf
+$ENDCMP
+#
+$CMP LTC6102xDD
+D Precision zero drift current sense amplifier, 60V supply, DFN-8 package
+K current sensor amplifier shunt monitoring high side
+F http://cds.linear.com/docs/en/datasheet/6102fe.pdf
+$ENDCMP
+#
+$CMP LTC6102xDD-1
+D Precision zero drift current sense amplifier, 60V supply, disable mode, DFN-8 package
+K current sensor amplifier shunt monitoring high side
+F http://cds.linear.com/docs/en/datasheet/6102fe.pdf
+$ENDCMP
+#
+$CMP LTC6102xMS8
+D Precision zero drift current sense amplifier, 60V supply, MSOP-8 package
+K current sensor amplifier shunt monitoring high side
+F http://cds.linear.com/docs/en/datasheet/6102fe.pdf
+$ENDCMP
+#
+$CMP LTC6102xMS8-1
+D Precision zero drift current sense amplifier, 60V supply, disable mode, MSOP-8 package
+K current sensor amplifier shunt monitoring high side
+F http://cds.linear.com/docs/en/datasheet/6102fe.pdf
 $ENDCMP
 #
 $CMP LTC6362
@@ -354,37 +414,37 @@ F http://cds.linear.com/docs/en/datasheet/6362fa.pdf
 $ENDCMP
 #
 $CMP MAX4080F
-D 76V High-side unidirectional current sense amplifier 5V/V gain
+D 76V current sense amplifier, high side, unidirectional, 5V/V gain
 K telecom automotive backplane external reference
 F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
 $ENDCMP
 #
 $CMP MAX4080S
-D 76V High-side unidirectional current sense amplifier 60V/V gain
+D 76V current sense amplifier, high side, unidirectional, 60V/V gain
 K telecom automotive backplane external reference
 F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
 $ENDCMP
 #
 $CMP MAX4080T
-D 76V High-side unidirectional current sense amplifier 20V/V gain
+D 76V current sense amplifier, high side, unidirectional, 20V/V gain
 K telecom automotive backplane external reference
 F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
 $ENDCMP
 #
 $CMP MAX4081F
-D 76V High-side differential bipolar current sense amplifier 5V/V gain
+D 76V current sense amplifier, high side, bidirectional, 5V/V gain
 K telecom automotive backplane external reference
 F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
 $ENDCMP
 #
 $CMP MAX4081S
-D 76V High-side differential bipolar current sense amplifier 60V/V gain
+D 76V current sense amplifier, high side, bidirectional, 60V/V gain
 K telecom automotive backplane external reference
 F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
 $ENDCMP
 #
 $CMP MAX4081T
-D 76V High-side differential bipolar current sense amplifier 20V/V gain
+D 76V current sense amplifier, high side, bidirectional, 20V/V gain
 K telecom automotive backplane external reference
 F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
 $ENDCMP
@@ -441,6 +501,42 @@ K op amp amplifier operational
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf
 $ENDCMP
 #
+$CMP NCS210
+D Bidirectional zero-drift current shunt, 200V/V gain, -0.3V to +26V common mode range
+K Current sensor shunt monitor
+F http://www.onsemi.com/pub_link/Collateral/NCS210-D.PDF
+$ENDCMP
+#
+$CMP NCS211
+D Bidirectional zero-drift current shunt, 500V/V gain, -0.3V to +26V common mode range
+K Current sensor shunt monitor
+F http://www.onsemi.com/pub_link/Collateral/NCS210-D.PDF
+$ENDCMP
+#
+$CMP NCS212
+D Bidirectional zero-drift current shunt, 1000V/V gain, -0.3V to +26V common mode range
+K Current sensor shunt monitor
+F http://www.onsemi.com/pub_link/Collateral/NCS210-D.PDF
+$ENDCMP
+#
+$CMP NCS213
+D Bidirectional zero-drift current shunt, 50V/V gain, -0.3V to +26V common mode range
+K Current sensor shunt monitor
+F http://www.onsemi.com/pub_link/Collateral/NCS210-D.PDF
+$ENDCMP
+#
+$CMP NCS214
+D Bidirectional zero-drift current shunt, 100V/V gain, -0.3V to +26V common mode range
+K Current sensor shunt monitor
+F http://www.onsemi.com/pub_link/Collateral/NCS210-D.PDF
+$ENDCMP
+#
+$CMP NCS215
+D Bidirectional zero-drift current shunt, 75V/V gain, -0.3V to +26V common mode range
+K Current sensor shunt monitor
+F http://www.onsemi.com/pub_link/Collateral/NCS210-D.PDF
+$ENDCMP
+#
 $CMP NE5532
 D Dual Op amp (low noice)
 K ampliop
@@ -454,8 +550,8 @@ F http://www.ti.com/lit/ds/symlink/ne555.pdf
 $ENDCMP
 #
 $CMP OP275
-D Dual bipolar audio Op Amp ±22V Input
-K operational amplifier 
+D Dual Op amp (low power)
+K ampliop
 F analog-dev/op275.pdf
 $ENDCMP
 #
@@ -501,10 +597,16 @@ K AmpliOp Mos
 F http://www.ti.com.cn/cn/lit/ds/symlink/tlc274.pdf
 $ENDCMP
 #
-$CMP TLV272
-D Dual rail to rail Op Amp +16V or ±8V Input
-K operational amplifier 
-F http://www.ti.com/lit/ds/symlink/tlv272.pdf
+$CMP LT1492
+D Dual Low Power Single-Supply Precision OpAmps, 5MHz FBP, 3V/µs SR
+K operational amplifier opamp Precision
+F http://cds.linear.com/docs/en/datasheet/14923f.pdf
+$ENDCMP
+#
+$CMP LT1493
+D Quad Low Power Single-Supply Precision OpAmps, 5MHz FBP, 3V/µs SR, SSOP package
+K operational amplifier opamp Precision 
+F http://cds.linear.com/docs/en/datasheet/14923f.pdf
 $ENDCMP
 #
 #End Doc Library
